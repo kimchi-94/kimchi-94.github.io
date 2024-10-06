@@ -11,9 +11,9 @@
 
     <form action="https://www.google.com" method="GET">
         <label for="firstname"> First Name: </label>
-        <input type="text" id="firstname">
+        <input type="text" id="firstname" name="firstname">
         <label for="lastname"> Last  Name: </label>
-        <input type="text" id="lastname">
+        <input type="text" id="lastname" name="lastname">
         <br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
@@ -27,9 +27,9 @@
         <label for="password">Password:</label>
         <input id="password" name="password" type="password" minlength="5" maxlength="10" required>
         <br>
-        <label for="birthday">Birthday:</label>
+        <label>Birthday:</label>
 
-        <select name="dob-month" class="datefield month">
+        <select id="dob-month" name="dob-month" class="datefield month">
             <option value="">Month</option>
             <option value="01">Jan</option>
             <option value="02">Feb</option>
@@ -45,7 +45,7 @@
             <option value="12">Dec</option>
         </select>
 
-        <select name="dob-day" class="datefield day">
+        <select id="dob-day" name="dob-day" class="datefield day">
             <option value="">Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -80,7 +80,7 @@
             <option value="31">31</option>
         </select>
 
-        <select name="dob-year" class="datefield year">
+        <select id="dob-year" name="dob-year" class="datefield year">
             <option value="">Year</option>
             <option value="2012">2012</option>
             <option value="2011">2011</option>
@@ -197,7 +197,7 @@
             <option value="1900">1900</option>
         </select>
         <br>
-        <input type="checkbox" id="terms" name="conditions" value="terms">
+        <input type="checkbox" id="terms" name="terms" value="terms">
         <label for="terms">I agree to the terms and conditions</label> 
         <br>
         <input type="submit" value="Submit">
