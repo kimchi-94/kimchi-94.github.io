@@ -1,11 +1,9 @@
-/* Apply global styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Body styling */
 body {
     background-color: #E7EBEE;
     display: flex;
@@ -16,7 +14,6 @@ body {
     margin: 0;
 }
 
-/* Header styling */
 h1 {
     font-family: "Metrophobic", sans-serif;
     color: #393D3F;
@@ -24,7 +21,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Horizontal line styling */
 hr {
     height: 2px;
     border: none;
@@ -33,14 +29,11 @@ hr {
 }
 
 
-
-/* Table styling */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* Table cell styling */
 td {
     padding: 10px;
     width: 33.33%;
